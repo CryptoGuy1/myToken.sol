@@ -213,24 +213,6 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_userToApprove",
-						"type": "address"
-					},
-					{
-						"internalType": "address",
-						"name": "_approver",
-						"type": "address"
-					}
-				],
-				"name": "approveAsMinter",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
 						"name": "account",
 						"type": "address"
 					}
@@ -256,7 +238,7 @@
 						"type": "uint8"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
@@ -300,19 +282,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_admin",
-						"type": "address"
-					}
-				],
-				"name": "grantAdminAndMinter",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -378,6 +347,24 @@
 						"type": "bool"
 					}
 				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "mint",
+				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
@@ -698,11 +685,11 @@
 			]
 		},
 		"myToken.sol": {
-			"keccak256": "0x84181311479825d26f7a9a350cc3a2344bb8efe945f77b04a7362ffefdf6e072",
+			"keccak256": "0x1130655e99c48b672d1b6d1bb5f976221e97b205fecd75e4ecb6275c773edffd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://50edccd84653db969505c20407fbbaf50735cec66dc4545ff8b47c665237eefc",
-				"dweb:/ipfs/QmfKpJn35QmQBPfdCNpu5AkEXDAZE773D14352Vxw2Tnuu"
+				"bzz-raw://3c8fffcd2ed443468e489bece4cca740a86429cc490ce139a344dea21f6c865f",
+				"dweb:/ipfs/QmVHBwmceiSScZk6BpQoiYPkeZufKJisMvbqzLgCbWsDSM"
 			]
 		}
 	},
